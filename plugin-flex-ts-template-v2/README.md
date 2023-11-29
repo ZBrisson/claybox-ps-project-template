@@ -54,7 +54,7 @@ The plugin logs each hook for each feature as it is loaded. This is particularly
 
 The feature library is intended to be a suite of typical features added to flex that can accelerate the launch of a Flex project by showing developers "how-to". Features can easily be turned on or off via the [flex-config](/README.md#flex-config) - or they can easily be removed completely by removing the feature directory or using the [remove-features](/README.md#removing-features) script.
 
-Each feature in the feature library is self contained. Let's look at [Caller ID](/plugin-flex-ts-template-v2/src/feature-library/caller-id) as an example.
+Each feature in the feature library is self contained. Let's look at [Caller ID](/plugin-flex-ts-template-zach-v2/src/feature-library/caller-id) as an example.
 
 For this feature, we have a `custom-components` directory, containing components that are created for rendering within Flex (in this case, the Caller ID dropdown). Within the `flex-hooks` directory, we can see which hooks are used to hook in the behavioural changes to Flex. In this case, we can see hooks defined for the `StartOutboundCall` action, the `OutboundDialerPanel` component, the `pluginLoaded` event, and our own Redux `state` namespace.
 
@@ -565,7 +565,7 @@ export const teamsFilterHook = async function getSampleFilters() {
 
 ## Adding a feature
 
-To add a new feature, use the [add-feature](/README.md#add-feature) script, which will create a new folder under the [feature-library](/plugin-flex-ts-template-v2/src/feature-library/) directory, add the boilerplate required for the feature to load, and set up configuration. Consult with other features in the feature library for further examples. When tested and completed, raise a pull request for submission back into the main branch of the template.
+To add a new feature, use the [add-feature](/README.md#add-feature) script, which will create a new folder under the [feature-library](/plugin-flex-ts-template-zach-v2/src/feature-library/) directory, add the boilerplate required for the feature to load, and set up configuration. Consult with other features in the feature library for further examples. When tested and completed, raise a pull request for submission back into the main branch of the template.
 
 ## Usage for a project or single-purpose plugin
 
@@ -575,8 +575,8 @@ When modifying behavior of the template (such as in a fork or clone) for use in 
 
 The types folder contains various object definitions that are used throughout the template. Many declare the interface for operations within the serverless functions. Some key types to pay attention to:
 
-- [Task](/plugin-flex-ts-template-v2/src/types/task-router/Task.ts) defines expected object model for customisations to task. It is useful here to annotate what custom conversation measures are used for.
-- [Worker](/plugin-flex-ts-template-v2/src/types/task-router/Worker.ts) defines expected object model for customisations to worker.
+- [Task](/plugin-flex-ts-template-zach-v2/src/types/task-router/Task.ts) defines expected object model for customisations to task. It is useful here to annotate what custom conversation measures are used for.
+- [Worker](/plugin-flex-ts-template-zach-v2/src/types/task-router/Worker.ts) defines expected object model for customisations to worker.
 
 # Utils
 
