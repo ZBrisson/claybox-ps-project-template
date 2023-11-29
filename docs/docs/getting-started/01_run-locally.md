@@ -49,5 +49,5 @@ the admin panel is disabled by default when working locally. See the [admin pane
 :::
 
 :::caution Development Gotcha
-When developing locally, Flex config is overridden by anything in your `plugin-flex-ts-template-v2/public/appConfig.js`. appConfig is only applicable when running the plugin locally, so you can edit this file to toggle features on and off for your locally running web server. You can also tweak the api endpoint for your serverless functions if you need to.
+When developing locally, Flex config is overridden by anything in your `plugin-flex-ts-template-zach-v2/public/appConfig.js`. appConfig is only applicable when running the plugin locally, so you can edit this file to toggle features on and off for your locally running web server. You can also tweak the api endpoint for your serverless functions if you need to.
 :::

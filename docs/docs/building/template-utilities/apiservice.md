@@ -2,7 +2,7 @@
 title: ApiService
 ---
 
-Location: `plugin-flex-ts-template-v2/src/utils/serverless/ApiService/index.ts`
+Location: `plugin-flex-ts-template-zach-v2/src/utils/serverless/ApiService/index.ts`
 
 This is the abstract class that implements serverless function calls; all utilities that act as interfaces to serverless functions should extend this. This class provides the following functionality:
 

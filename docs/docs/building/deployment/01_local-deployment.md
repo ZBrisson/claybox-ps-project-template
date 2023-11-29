@@ -74,7 +74,7 @@ If they match, continue:
 Now that the dependencies have been deployed, we may now deploy the Flex plugin:
 
 ```bash
-cd ../plugin-flex-ts-template-v2
+cd ../plugin-flex-ts-template-zach-v2
 npm run deploy -- --changelog "My manual deploy" --description "Flex project template"
 ```
 

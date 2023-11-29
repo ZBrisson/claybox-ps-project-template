@@ -10,7 +10,7 @@ If you want to add a new feature, after following the steps to [run Flex locally
 npm run add-feature <my-new-feature-name>
 ```
 
-This will create a new feature folder under `plugin-flex-ts-template-v2/src/feature-library` and it will apply the boilerplate code so you can easily add in your functionality:
+This will create a new feature folder under `plugin-flex-ts-template-zach-v2/src/feature-library` and it will apply the boilerplate code so you can easily add in your functionality:
 - Creates a feature directory under `feature-library`
 - Adds an interface for feature configuration
 - Adds a feature readme file

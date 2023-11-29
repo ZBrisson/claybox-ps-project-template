@@ -14,7 +14,7 @@ Several packages are included in the template. Each package has a distinct purpo
 |docs|Docusaurus project that contains the documentation you are reading right now!|
 |flex-config|Manages deployment of the Flex UI configuration, which contains the settings for each feature in the template.|
 |infra-as-code|TaskRouter and Studio resource definitions for dependencies of template features. This allows managing these dependencies as code for easy deployment to an environment.|
-|plugin-flex-ts-template-v2|Twilio Flex plugin that provides the front-end logic and UI.|
+|plugin-flex-ts-template-zach-v2|Twilio Flex plugin that provides the front-end logic and UI.|
 |serverless-functions|Back-end logic that the Flex plugin calls in order to securely access Twilio APIs without exposing credentials in the front-end. Also exposes functions for integrating template features outside of Flex, such as from Studio flows or other infrastructure.|
 
 There may also be other packages within the repository that exist to support specific template features. See [add-ons](/building/deployment/addons) for more details on each package.

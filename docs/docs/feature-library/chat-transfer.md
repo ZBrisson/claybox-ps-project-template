@@ -25,7 +25,7 @@ this feature creates a task when transferring which copies the attributes of the
 
 When creating a task we need to pass it to a TaskRouter workflow and the workflow needs to route it. In the case of a worker sid, this is a single rule as we can use the "known agent routing" option and pass in the variable. In the case of a queue, this is a little more cumbersome as we need to create a rule in the workflow for each queue.
 
-So we need to setup a workflow, similar to this one [here](https://github.com/twilio-professional-services/flex-project-template/blob/main/plugin-flex-ts-template-v2/src/feature-library/chat-transfer/example-taskrouter-workflow.json) where the first rule matches any worker selected then we have a rule for each queue in the system. It is recommended to name this "Chat Transfer".
+So we need to setup a workflow, similar to this one [here](https://github.com/twilio-professional-services/flex-project-template/blob/main/plugin-flex-ts-template-zach-v2/src/feature-library/chat-transfer/example-taskrouter-workflow.json) where the first rule matches any worker selected then we have a rule for each queue in the system. It is recommended to name this "Chat Transfer".
 
 With the workflow setup, we need to update the serverless function environment variable
 

@@ -9,7 +9,7 @@ The version controlled configuration is merged with the configuration already ex
 
 ## To deploy to a hosted account from local (not typically neccessary)
 
-_Note_ when running locally `plugin-flex-ts-template-v2/public/appConfig.js` will take precedence over anything deployed
+_Note_ when running locally `plugin-flex-ts-template-zach-v2/public/appConfig.js` will take precedence over anything deployed
 
 1. Make sure the dependent modules are installed
 ```bash

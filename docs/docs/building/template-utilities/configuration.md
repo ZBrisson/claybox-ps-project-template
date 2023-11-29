@@ -17,7 +17,7 @@ The template manages configuration in a few different ways:
 Generally speaking, when running the *flex-project-template* Flex plugin, configuration is loaded from the [hosted Flex configuration endpoint](https://www.twilio.com/docs/flex/developer/config/flex-configuration-rest-api#ui_attributes). When the *flex-project-template* is deployed, a [`custom_data`](#the-custom_data-object) object is injected into ui_attributes that manages configuration for each feature within the template. This deployment is performed by the flex-config package in the template.
 
 ### Local environment
-When running Flex locally, the configuration from [hosted Flex configuration](https://www.twilio.com/docs/flex/developer/config/flex-configuration-rest-api#ui_attributes) is loaded, but the configuration in `plugin-flex-ts-template-v2/public/appConfig.js` overrides anything in hosted configuration. _Note: the `appConfig.js` config is only used locally and has no bearing on a deploy or when on hosted Flex._
+When running Flex locally, the configuration from [hosted Flex configuration](https://www.twilio.com/docs/flex/developer/config/flex-configuration-rest-api#ui_attributes) is loaded, but the configuration in `plugin-flex-ts-template-zach-v2/public/appConfig.js` overrides anything in hosted configuration. _Note: the `appConfig.js` config is only used locally and has no bearing on a deploy or when on hosted Flex._
 
 :::note Initial setup
 The `appConfig.js` file is created for you as part of the initial local environment setup script, which executes when running `npm install` in the root template directory. The file is automatically populated with the feature config from the `flex-config/ui_attributes.common.json` file at the time of creation, as long as the file does not already exist.
@@ -209,7 +209,7 @@ The setup script when run via `npm install` performs the following operations:
 1. Establish the Twilio account to use
 2. Automatically populate the `.env.<environment name here>` file for each package
 3. Automatically populate the `ui_attributes.<environment name here>.json` file for flex-config deployment if not running locally
-4. Create and populate the `plugin-flex-ts-template-v2/public/appConfig.js` file if running locally
+4. Create and populate the `plugin-flex-ts-template-zach-v2/public/appConfig.js` file if running locally
 5. Run `npm install` for each package, so that it is ready to use.
 
 Several parameters are accepted when the script is run via `npm run postinstall`, which can be used to customize the script's functionality. These parameters can be set as follows:
@@ -268,7 +268,7 @@ npm run postinstall -- --env=dev
 ### packages
 The setup script, by default, will automatically perform its steps for the following packages:
 - flex-config
-- plugin-flex-ts-template-v2
+- plugin-flex-ts-template-zach-v2
 - serverless-functions
 - serverless-schedule-manager
 - web-app-examples/twilio-video-demo-app

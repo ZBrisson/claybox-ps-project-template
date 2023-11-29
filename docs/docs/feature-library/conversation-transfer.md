@@ -49,7 +49,7 @@ transferQueueName - TaskRouter friendly name for the queue in the case of target
 workerSidsInConversation - string array of workers in the conversation
 ```
 
-A sample workflow showing how to route to the agent, queue and ignore agents in the conversation is [here](https://github.com/twilio-professional-services/flex-project-template/blob/main/plugin-flex-ts-template-v2/src/feature-library/conversation-transfer/example-taskrouter-workflow.json). It is recommended to name this workflow "Chat Transfer".
+A sample workflow showing how to route to the agent, queue and ignore agents in the conversation is [here](https://github.com/twilio-professional-services/flex-project-template/blob/main/plugin-flex-ts-template-zach-v2/src/feature-library/conversation-transfer/example-taskrouter-workflow.json). It is recommended to name this workflow "Chat Transfer".
 
 With the workflow setup, we need to update the serverless function environment variable
 
